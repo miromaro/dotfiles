@@ -22,5 +22,5 @@
 URxvt.scrollBar:        false
 URxvt.internalBorder:   16
 URxvt.perl-ext-common:  default,matcher
-URxvt.url-launcher:     /usr/bin/xdg-open
+URxvt.url-launcher:     /usr/local/bin/firefox
 URxvt.matcher.button:   1

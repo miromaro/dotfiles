@@ -1,0 +1,26 @@
+*background:            #1f2033
+*foreground:            #d4cec2
+*color0:                #1f2033
+*color1:                #60475a
+*color2:                #474b69
+*color3:                #bcaea5
+*color4:                #585c78
+*color5:                #a89391
+*color6:                #94949f
+*color7:                #bcbfb9
+*color8:                #42384e
+*color9:                #7c616e
+*color10:               #45435d
+*color11:               #d5c9b8
+*color12:               #373b56
+*color13:               #a09aa2
+*color14:               #8e8d9b
+*color15:               #d4cec2
+
+*font:                  -*-proggysquare-*-*-*-*-*-*-*-*-*-*-*-*
+*boldFont:              -*-proggysquare-*-*-*-*-*-*-*-*-*-*-*-*
+URxvt.scrollBar:        false
+URxvt.internalBorder:   16
+URxvt.perl-ext-common:  default,matcher
+URxvt.url-launcher:     /usr/bin/xdg-open
+URxvt.matcher.button:   1

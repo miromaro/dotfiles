@@ -1,0 +1,21 @@
+#!/bin/sh
+
+wm() {
+    case "$(bspc query -D -d)" in
+    "code")
+        echo "code %{F#585c78}etc web%{F-}";;
+    "etc")
+        echo "%{F#585c78}code%{F-} etc %{F#585c78}web%{F-}";;
+    "web")
+        echo "%{F#585c78}code etc%{F-} web";;
+    esac
+}
+
+clk() {
+    echo "$(date "+%-I:%M")"
+}
+
+while pgrep lemonbar > /dev/null; do
+    echo "%{l}%{O12}$(wm)%{r}$(clk)%{O12}"
+    sleep 0.1
+done

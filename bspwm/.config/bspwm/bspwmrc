@@ -25,3 +25,4 @@ compton -b --config ~/.config/compton.conf
     -F \#d4cec2 \
     -f "-*-proggysquare-*-*-*-*-*-*-*-*-*-*-*-*" &
 urxvtd -q -o -f
+redshift -l 30:31 -b 0.7 &

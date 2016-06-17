@@ -17,13 +17,6 @@
     --url-position: fixed;
 }
 
-#content browser {
-    margin-right: -14px !important;
-    margin-bottom: -14px !important;
-    overflow-y: scroll !important;
-    overflow-x: hidden !important;
-}
-
 @-moz-document url(chrome://browser/content/browser.xul) {
     #back-button, #forward-button, #back-button *, #forward-button *, #identity-box, #urlbar-reload-button, #urlbar-stop-button, #urlbar-go-button,
     #PanelUI-button, #bookmarks-menu-button, #downloads-button, #home-button, #stylish-toolbar-button, #abp-toolbarbutton,

@@ -19,6 +19,7 @@
 
 *font:                 -*-proggysquare-*-*-*-*-*-*-*-*-*-*-*-*
 *boldFont:             -*-proggysquare-*-*-*-*-*-*-*-*-*-*-*-*
+
 URxvt.scrollBar:       false
 URxvt.internalBorder:  16
 URxvt.perl-ext-common: default,matcher

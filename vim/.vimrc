@@ -6,6 +6,6 @@ set softtabstop=4
 set relativenumber
 set laststatus=2
 set statusline=%f
-syntax on
 
+syntax on
 color cold

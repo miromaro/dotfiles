@@ -1,5 +1,7 @@
 set nocompatible
 
+imap ` <Esc>
+
 set noswapfile
 set nobackup
 
